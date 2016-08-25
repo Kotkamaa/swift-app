@@ -22,9 +22,9 @@ class ViewController: UIViewController {
         
         if addition {
             theLabel.text = "Answer: \(Double(text1.text!)! + Double(text2.text!)!)"
-        } else {
+        } /*else {
             theLabel.text = "Answer: \(Double(text1.text!)! - Double(text2.text!)!)"
-        }
+        }*/
     }
     
     override func viewDidLoad() {
